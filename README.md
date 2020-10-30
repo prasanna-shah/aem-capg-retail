@@ -1,4 +1,4 @@
-# CapG Retail Project for AEM Tech Challenge
+# CapG Retail Project for AEM Tech Challenge 2020
 
 This is a project for AEM application, created using AEM Archetype 23 and tested on AEM 6.5.    
 It is built for Capgemini Tech challenge 2020 which can further be extended to develop more custom functionality.    
@@ -8,9 +8,9 @@ The CapG Retail website recognizes that there is an epidemic in certain countrie
 The website lists products help countering the disease on the home page by overriding the customer’s usual preferences.  
 
 ### Author urls to access CapG Retail home page for different countires
-*India* - http://localhost:4502/content/capgretail/india/home.html?wcmmode=disabled  
-*USA* - http://localhost:4502/content/capgretail/usa/home.html?wcmmode=disabled  
-*Brazil* - http://localhost:4502/content/capgretail/brazil/home.html?wcmmode=disabled  
+**India** - http://localhost:4502/content/capgretail/india/home.html?wcmmode=disabled  
+**USA** - http://localhost:4502/content/capgretail/usa/home.html?wcmmode=disabled  
+**Brazil** - http://localhost:4502/content/capgretail/brazil/home.html?wcmmode=disabled  
 These 3 are the sample country implementations and implemented via *MSM (Livecopy and blueprint)* feature of AEM  
 More countries site can be rolled-out without having to do any code/config changes and with the same functionality. 
 
