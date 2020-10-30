@@ -1,0 +1,29 @@
+.cmp-button--scrolltop {
+    float: right !important;
+    margin-right: 50px;
+    margin-top: 20px;
+    width: auto !important;
+
+    .cmp-button__text {
+        display: none;
+    }
+
+    .cmp-button__icon {
+        display: block;
+    }
+
+    .cmp-button__icon--arrow {
+        background-image: url("/content/dam/wkndmuzik/icons/Path.png");
+        width: 16px;
+        height: 16px;
+    }
+}
+
+// Styles for Mobile
+@media (min-width: @screen-small) and (max-width: @screen-mobile) {
+	.cmp-button--scrolltop {
+      float: left !important;
+      margin: 40px 0;
+      padding-left: 16px;
+    }
+}

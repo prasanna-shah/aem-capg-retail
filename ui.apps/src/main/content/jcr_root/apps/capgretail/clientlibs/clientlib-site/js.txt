@@ -1,0 +1,8 @@
+#base=.
+components/header/header.js
+components/form/form-fields.js
+components/form/form-submit.js
+components/form/form-dropdown.js
+components/contentfragmentlist/contentfragmentlist.js
+components/embed/thumbnail-click.js
+components/navigation/mobile-navigation.js

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-10-27T13:55:48.294+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/wkndmuzik/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Footer"
+        sling:resourceType="wkndmuzik/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wkndmuzik/components/container"
+            layout="simple">
+            <container
+                cq:styleIds="[1599567007259]"
+                jcr:created="{Date}2020-09-08T16:30:48.454+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-09-08T16:42:02.188+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wkndmuzik/components/container"
+                layout="responsiveGrid">
+                <navigation
+                    cq:styleIds="[1599742893216]"
+                    jcr:created="{Date}2020-09-08T15:50:48.900+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-10-27T13:55:48.265+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/navigation"
+                    collectAllPages="false"
+                    disableShadowing="false"
+                    navigationRoot="/content/capgretail/language-masters/en"
+                    structureDepth="2"
+                    structureStart="1">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="8"/>
+                    </cq:responsive>
+                </navigation>
+                <button_copy_900918790
+                    cq:styleIds="[1599743485413]"
+                    jcr:created="{Date}2020-09-08T16:44:49.698+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-09-08T16:46:33.765+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Instagram"
+                    sling:resourceType="wkndmuzik/components/button"
+                    accessibilityLabel="Instagram Button"
+                    icon="instagram"
+                    link="#instagramwknd">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="1"/>
+                    </cq:responsive>
+                </button_copy_900918790>
+                <button_copy
+                    cq:styleIds="[1599743485413]"
+                    jcr:created="{Date}2020-09-08T16:44:49.698+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-09-08T16:47:03.829+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Twitter"
+                    sling:resourceType="wkndmuzik/components/button"
+                    accessibilityLabel="Twitter Button"
+                    icon="twitter"
+                    link="#twitterwknd">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="1"/>
+                    </cq:responsive>
+                </button_copy>
+                <button
+                    cq:styleIds="[1599743485413]"
+                    jcr:created="{Date}2020-09-08T16:44:49.698+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-09-08T16:45:33.559+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Facebook"
+                    sling:resourceType="wkndmuzik/components/button"
+                    accessibilityLabel="Facebook Button"
+                    icon="facebook"
+                    link="#facebookwknd">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="1"/>
+                    </cq:responsive>
+                </button>
+                <button_copy_404585769
+                    cq:styleIds="[1599746673148]"
+                    jcr:created="{Date}2020-09-08T16:44:49.698+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-09-10T13:59:47.875Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Arrow"
+                    sling:resourceType="wkndmuzik/components/button"
+                    accessibilityLabel="Scroll Top Button"
+                    icon="arrow"
+                    link="#">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="1"/>
+                    </cq:responsive>
+                </button_copy_404585769>
+                <separator
+                    cq:styleIds="[1599745456873]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/separator"/>
+                <text
+                    jcr:lastModified="{Date}2020-10-27T12:22:49.191+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/text"
+                    text="&lt;p>© 2020 CapG Retail Site. Built using Adobe Experience Manager 6.5&lt;/p>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </text>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

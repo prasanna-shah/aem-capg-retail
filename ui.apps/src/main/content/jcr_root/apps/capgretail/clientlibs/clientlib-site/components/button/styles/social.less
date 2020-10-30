@@ -1,0 +1,32 @@
+.cmp-button--social {
+    margin-top: 20px;
+    width: auto !important;
+    .cmp-button__text {
+        display: none;
+    }
+    .cmp-button__icon {
+        display: block;
+    }
+    .cmp-button__icon--instagram {
+        background-image: url("/content/dam/wkndmuzik/icons/Instagram.png");
+        width: 14px;
+        height: 14px;
+    }
+    .cmp-button__icon--facebook {
+        background-image: url("/content/dam/wkndmuzik/icons/Facebook.png");
+        width: 8px;
+        height: 14px;
+    }
+    .cmp-button__icon--twitter {
+        background-image: url("/content/dam/wkndmuzik/icons/Twitter.png");
+        width: 14px;
+        height: 12px;
+    }
+}
+
+// Styles for Mobile
+@media (min-width: @screen-small) and (max-width: @screen-mobile) {
+	.cmp-button--social {
+        padding: 0 20px 0;
+    }
+}

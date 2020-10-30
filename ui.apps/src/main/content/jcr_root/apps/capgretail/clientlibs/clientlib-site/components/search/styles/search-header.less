@@ -1,0 +1,38 @@
+.cmp-search--header {
+    width: auto !important;
+    padding-left: 28px;
+    .cmp-search {
+        display: none;
+        margin-top: 10px;
+        .cmp-search__input {
+            width: 100px;
+            font-size: 16px;
+        }
+        .cmp-search__item-mark {
+            font-size: 16px;
+        }
+    }
+    .cmp-search__icon--toggle {
+        display: inline-block;
+        background-image: url("/content/dam/wkndmuzik/icons/search.png");
+        width: 15px;
+        height: 15px;
+        margin-top: 22px;
+    }
+}
+
+// Styles for Tablet
+@media (min-width: @screen-medium) and (max-width: @screen-tablet) {
+	.cmp-search--header {
+      padding-left: 20px;
+    }
+}
+
+// Styles for Mobile
+@media (min-width: @screen-small) and (max-width: @screen-mobile) {
+    .cmp-search--header {
+        .cmp-search {
+          margin-top: 12px;
+        }
+    }
+}

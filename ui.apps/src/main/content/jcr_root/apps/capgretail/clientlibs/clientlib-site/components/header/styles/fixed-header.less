@@ -1,0 +1,12 @@
+// Transparent header on homepage and Fixed header on scroll
+
+#home-page {
+	.cmp-layoutcontainer--header {
+    	background-color: transparent;
+    }
+    &.scrolly {
+        .cmp-layoutcontainer--header {
+            background-color: @body-bg;
+        }
+    }
+}

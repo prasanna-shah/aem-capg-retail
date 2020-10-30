@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="PPE Kit">
+    <ppekit1
+        cq:commerceType="product"
+        cq:tags="[we-retail:gender/women,we-retail:activity/running,we-retail:apparel/pants]"
+        jcr:created="{Date}2016-01-13T21:35:28.341-08:00"
+        jcr:description="ppekit"
+        jcr:lastModified="{Date}2016-01-16T16:59:01.467-05:00"
+        jcr:mixinTypes="[cq:Taggable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Disposable PPE Kit"
+        sling:resourceType="commerce/components/product"
+        identifier="116138669"
+        price="{Decimal}69.99"
+        summary="PPE or the Personal Protective Equipment is designed specially to help protect you against harmful viruses"
+        textIsRich="[true,true]">
+        <image
+            jcr:lastModified="{Date}2016-01-16T16:59:01.425-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="commerce/components/product/image"
+            fileReference="/content/dam/capgretail/products/apparel/covid-protect/ppe1.jpg"/>
+    </ppekit1>
+    <ppekit2
+        cq:commerceType="product"
+        cq:tags="[we-retail:gender/women,we-retail:activity/running,we-retail:apparel/pants]"
+        jcr:created="{Date}2016-01-13T21:35:28.341-08:00"
+        jcr:description="ppekit"
+        jcr:lastModified="{Date}2016-01-16T16:59:01.467-05:00"
+        jcr:mixinTypes="[cq:Taggable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="&#xa;SWHF PPE Kit"
+        sling:resourceType="commerce/components/product"
+        identifier="116138679"
+        price="{Decimal}89.99"
+        summary="The safety essential you need when you are stepping out "
+        textIsRich="[true,true]">
+        <image
+            jcr:lastModified="{Date}2016-01-16T16:59:01.425-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="commerce/components/product/image"
+            fileReference="/content/dam/capgretail/products/apparel/covid-protect/ppe2.jpg"/>
+    </ppekit2>
+    <jcr:content jcr:primaryType="nt:unstructured">
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/capgretail" mode="merge"/>
+    <filter root="/content/capgretail" mode="merge"/>
+    <filter root="/content/dam/capgretail" mode="merge"/>
+    <filter root="/content/experience-fragments/capgretail" mode="merge"/>
+	<filter root="/var/commerce/products/capg-retail" mode="merge"/>
+</workspaceFilter>

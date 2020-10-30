@@ -1,0 +1,118 @@
+.cmp-navigation--header {
+    padding-top: 15px;
+    margin: 0 0 0 80px !important;
+    width: auto !important;
+    
+    .cmp-navigation__group {
+        list-style: none;
+        margin: 0;
+        .cmp-navigation__item {
+            display: block;
+            float: left;
+            a.cmp-navigation__item-link {
+                letter-spacing: 3px;
+                font-weight: bold;
+                font-family: Montserrat;
+                color: #fff;
+                font-size: 12px;
+                text-transform: uppercase;
+                padding: 15px 25px;
+            }
+        }
+        .cmp-navigation__item-link[title=Contact] {
+            display: none;
+        }
+    }
+    &+.container {
+        float: right !important;
+        width: auto !important;
+        margin-right: 30px;
+    }
+}
+
+// Styles for Tablet
+@media (min-width: @screen-medium) and (max-width: @screen-tablet) {
+    .cmp-navigation--header {
+        margin: 0 0 0 30px !important;
+        .cmp-navigation__group {
+            .cmp-navigation__item {
+                a.cmp-navigation__item-link {
+                  letter-spacing: 2px;
+                  padding: 15px 15px;
+                }
+            }
+        }
+    }
+}
+.mobile__toggle-icon {
+    background-image: url('/content/dam/wkndmuzik/icons/mobile-burger.png');
+}
+
+// Styles for Mobile
+@media (min-width: @screen-small) and (max-width: @screen-mobile) {
+    .cmp-navigation--header {
+      display: none !important;
+      &+.container {
+        float: left !important;
+        width: 90% !important;
+        margin: 0 0 0 35px !important;    
+      }
+    }
+    #toggleNav {
+        z-index: 9999;
+        top: 50px;
+        right: 20px;
+        position: fixed;
+        display: block;
+        .mobile__toggle-icon {
+            height: 55px;
+            width: 60px;
+            font-size: 20px;
+            display: inline-block;
+        }
+    }
+    body.navPanel-visible {
+        padding-top: 0;
+        #toggleNav, .root.responsivegrid {
+            transform: translateX(-275px);
+            transition: transform .5s ease,-webkit-transform .5s ease;
+        }
+        #mobileNav {
+            display: block;
+        }
+    }
+    .cmp-navigation--mobile {
+        background: #202020;
+        height: 100%;
+        right: 0;
+        overflow-y: auto;
+        position: fixed;
+        top: 0;
+        width: 275px;
+        z-index: 10001;
+        transition: transform .5s ease,-webkit-transform .5s ease;
+    	transform: translateX(0);
+        .cmp-navigation__group {
+            list-style: none;
+            margin: 20px 0 0;
+            padding-inline-start: 0;
+            .cmp-navigation__item {
+                float: left;
+                width: 100%;
+                .cmp-navigation__item-link[title=Blogs] {
+                  display: none;
+                }
+                .cmp-navigation__item-link {
+                    font-size: 16px;
+                    display: block;
+                    color: #ebebeb;
+                    text-decoration: none;
+                    height: 44px;
+                    line-height: 44px;
+                    border-top: 1px solid hsla(0,0%,100%,.05);
+                    padding: 0 20px;
+                }
+            }
+        }
+    }
+}

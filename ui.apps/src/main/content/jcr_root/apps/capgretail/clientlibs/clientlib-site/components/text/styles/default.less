@@ -1,0 +1,16 @@
+.cmp-text {
+   h1, .h1 { font-size: 60px; }
+   h2, .h2 { font-size: 41px; }
+   p, .p { font-size: 16px; }
+}
+
+
+// Styles for Mobile
+@media (min-width: @screen-small) and (max-width: @screen-mobile) {
+   .cmp-text {
+        h1, .h1 { font-size: 30px; }
+        p, .p { font-size: 14px; }
+        padding-top: 23px;
+        padding-bottom: 20px;
+    } 
+}

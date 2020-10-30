@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/libs/settings/cloudsettings/legacy/contexthub"
+        cq:contextHubSegmentsPath="/conf/capgretail/settings/wcm/segments"
+        cq:lastModified="{Date}2020-10-29T11:30:27.549+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capgretail/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
+        sling:resourceType="capgretail/components/page"
+        pageTitle="CapG Retail">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capgretail/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capgretail/components/container">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Welcome to My Site!"
+                    sling:resourceType="capgretail/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capgretail/components/container"
+                    layout="responsiveGrid">
+                    <experiencefragment_92791003
+                        jcr:created="{Date}2020-10-29T11:10:00.092+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-29T11:10:20.050+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="capgretail/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/capgretail/language-masters/en/site/homepage-banner/master"/>
+                    <container
+                        jcr:created="{Date}2020-10-27T13:29:15.973+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-27T13:29:31.651+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="capgretail/components/container"
+                        id="features"
+                        layout="responsiveGrid">
+                        <teaser
+                            jcr:created="{Date}2020-10-27T13:29:39.474+05:30"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>And free return&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2020-10-27T13:30:46.964+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Free Delivery"
+                            sling:resourceType="capgretail/components/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/capgretail/features/cart.png"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="4"/>
+                            </cq:responsive>
+                        </teaser>
+                        <teaser_copy
+                            jcr:created="{Date}2020-10-27T13:29:39.474+05:30"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>Worldwide shipping&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2020-10-27T13:31:53.792+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Order Tracking"
+                            sling:resourceType="capgretail/components/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/capgretail/features/tracking.png"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="4"/>
+                            </cq:responsive>
+                        </teaser_copy>
+                        <teaser_copy_918159399
+                            jcr:created="{Date}2020-10-27T13:29:39.474+05:30"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>With our outdoor specialist&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2020-10-27T13:32:21.508+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Online Support"
+                            sling:resourceType="capgretail/components/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/capgretail/features/support.png"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="4"/>
+                            </cq:responsive>
+                        </teaser_copy_918159399>
+                    </container>
+                    <title
+                        jcr:created="{Date}2020-10-27T13:59:25.599+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-27T13:59:52.053+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Products Recommended for you"
+                        sling:resourceType="capgretail/components/title"
+                        type="h2"/>
+                    <experiencefragment
+                        jcr:created="{Date}2020-10-28T11:50:26.487+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-28T19:52:49.621+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="capgretail/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/capgretail/language-masters/en/site/product-recommendations/master"/>
+                    <button
+                        jcr:created="{Date}2020-10-27T14:01:15.317+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-29T11:30:27.543+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="All Men Products"
+                        sling:resourceType="capgretail/components/button"
+                        id="products-button"
+                        link="/content/capgretail/language-masters/en/men"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+    <men/>
+    <women/>
+    <covid-protect/>
+    <about-us/>
+</jcr:root>

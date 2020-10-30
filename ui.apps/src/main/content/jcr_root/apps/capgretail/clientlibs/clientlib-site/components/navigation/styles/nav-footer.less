@@ -1,0 +1,67 @@
+.cmp-navigation--footer {
+    margin-right: 50px;
+    .cmp-navigation__group {
+		list-style: none;
+		.cmp-navigation__item-link {
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: bold;
+			letter-spacing: 3px;
+		}
+		.cmp-navigation__item--level-1{
+			padding-top: 5px;
+			.cmp-navigation__item-link {
+				color: #fff;
+				text-transform: none;
+				font-size: 14px;
+				font-weight: normal;
+				letter-spacing: 0;
+			}
+		}
+		.cmp-navigation__item--level-0 {
+			float: left;
+			padding: 0 55px;
+			.cmp-navigation__group {
+				padding: 20px 0 0;
+			}
+
+		}
+		.cmp-navigation__item-link[title=Blogs] {
+			display: none;
+		}
+	} 
+}
+
+// Styles for Tablet
+@media (min-width: @screen-medium) and (max-width: @screen-tablet) {
+    .cmp-navigation--footer {
+      padding: 0;
+      margin-right: 0px;
+      margin-left: 20px !important;
+        .cmp-navigation__group {
+            .cmp-navigation__item--level-0 {
+              float: left;
+              padding: 0px 45px 0 0;
+            }
+        }
+    }
+}
+
+// Styles for Mobile
+@media (min-width: @screen-small) and (max-width: @screen-mobile) {
+    .cmp-navigation--footer {
+        margin-right: 0;
+    	width: 80% !important;
+        .cmp-navigation__group {
+            margin-top: 0;
+            .cmp-navigation__item--level-0 {
+                float: none;
+                padding: 0;
+                .cmp-navigation__group {
+                  padding: 0 0 30px 0;
+                }
+            }
+        }
+    }
+}
