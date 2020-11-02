@@ -26,8 +26,8 @@ if($('html').attr('wcmmode') != undefined) {
         console.log(countrydata);
         var totalcases = countrydata.total_cases_per_1m_population;
         console.log('Total cases per 1M population: ' + totalcases);
-        var resultArray = totalcases.split(',').map(function(strVale){return Number(strVale);}); 
-        totalcases = resultArray.join('');
+        var resultArray = totalcases.split(',').map(function(strVale){return strVale;}); 
+        totalcases = Number(resultArray.join(''));
     
         if(parseInt(totalcases) > 20000) {
     
